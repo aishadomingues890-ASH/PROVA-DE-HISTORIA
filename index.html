@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova de História - Século XX</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
+        .info-aluno {
+            margin-bottom: 20px;
+        }
+        .info-aluno div {
+            margin-bottom: 5px;
+        }
+        .instrucoes {
+            background-color: #e9e9e9;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-left: 4px solid #333;
+        }
+        .questao {
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        .questao .enunciado {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .questao .alternativas {
+            margin-left: 20px;
+        }
+        .questao .alternativas div {
+            margin-bottom: 3px;
+        }
+        .secao {
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.2em;
+            font-weight: bold;
+            border-bottom: 1px solid #333;
+            padding-bottom: 5px;
+        }
+        #resultados {
+            display: none;
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #e0f7fa;
+            border: 1px solid #00796b;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>COLÉGIO ESTADUAL HISTÓRIA CONTEMPORÂNEA</h1>
+        <h2>Prova Bimestral de História</h2>
+        <h3>2º Ano do Ensino Médio</h3>
+        <p>Professor(a): __________________________  Data: _____/_____/_____</p>
+    </div>
+
+    <div class="info-aluno">
+        <div>Nome: <input type="text" name="nome" required></div>
+        <div>Nº: <input type="number" name="numero"> Turma: <input type="text" name="turma"> Turno: <input type="text" name="turno"></div>
+    </div>
+
+    <div class="instrucoes">
+        <p><strong>INSTRUÇÕES:</strong></p>
+        <ol>
+            <li>Esta prova contém 35 questões, sendo 30 objetivas e 5 verdadeiro ou falso.</li>
+            <li>Leia cuidadosamente cada questão antes de responder.</li>
+            <li>Para as questões objetivas, marque claramente a alternativa correta.</li>
+            <li>Para as questões verdadeiro/falso, marque V para verdadeiro e F para falso.</li>
+            <li>Não serão aceitas rasuras nas respostas objetivas.</li>
+            <li>Duração da prova: 90 minutos.</li>
+        </ol>
+    </div>
+
+    <!-- Seção 1: Revolução Russa -->
+    <div class="secao">SEÇÃO 1 - REVOLUÇÃO RUSSA (1917)</div>
+
+    <div class="questao">
+        <div class="enunciado">1. Qual foi o principal evento que desencadeou a Revolução Russa de 1917?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q1" value="a"> a) A industrialização acelerada da Rússia</div>
+            <div><input type="radio" name="q1" value="b"> b) A participação desastrosa da Rússia na Primeira Guerra Mundial</div>
+            <div><input type="radio" name="q1" value="c"> c) A morte do czar Nicolau II</div>
+            <div><input type="radio" name="q1" value="d"> d) A influência direta dos Estados Unidos no governo russo</div>
+        </div>
+    </div>
+
+    <div class="questao">
+        <div class="enunciado">2. Os sovietes eram:</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q2" value="a"> a) Membros da aristocracia russa</div>
+            <div><input type="radio" name="q2" value="b"> b) Conselhos de operários, soldados e camponeses</div>
+            <div><input type="radio" name="q2" value="c"> c) Representantes do governo czarista</div>
+            <div><input type="radio" name="q2" value="d"> d) Grupos de elite do exército russo</div>
+        </div>
+    </div>
+
+    <div class="questao">
+        <div class="enunciado">3. O que foi o "Decreto sobre a Terra", aprovado pelos bolcheviques após a Revolução?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q3" value="a"> a) A nacionalização de todas as terras e sua redistribuição aos camponeses</div>
+            <div><input type="radio" name="q3" value="b"> b) A proibição da agricultura em larga escala</div>
+            <div><input type="radio" name="q3" value="c"> c) A criação de colônias agrícolas estatais</div>
+            <div><input type="radio" name="q3" value="d"> d) A privatização das terras da nobreza</div>
+        </div>
+    </div>
+
+    <!-- Continue com mais 7 questões sobre Revolução Russa (total de 10) -->
+
+    <!-- Seção 2: 1ª Guerra Mundial -->
+    <div class="secao">SEÇÃO 2 - PRIMEIRA GUERRA MUNDIAL (1914-1918)</div>
+
+    <div class="questao">
+        <div class="enunciado">11. O que foi o "Atentado de Sarajevo" em 1914?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q11" value="a"> a) O bombardeio de uma cidade francesa pela Alemanha</div>
+            <div><input type="radio" name="q11" value="b"> b) O assassinato do arquiduque Francisco Fernando da Áustria</div>
+            <div><input type="radio" name="q11" value="c"> c) A invasão da Sérvia pela Rússia</div>
+            <div><input type="radio" name="q11" value="d"> d) A declaração de guerra da Inglaterra contra a Alemanha</div>
+        </div>
+    </div>
+
+    <div class="questao">
+        <div class="enunciado">12. Qual foi o principal motivo para a entrada dos Estados Unidos na guerra em 1917?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q12" value="a"> a) O afundamento do navio Lusitania por submarinos alemães</div>
+            <div><input type="radio" name="q12" value="b"> b) A invasão alemã do território americano</div>
+            <div><input type="radio" name="q12" value="c"> c) O ataque japonês a Pearl Harbor</div>
+            <div><input type="radio" name="q12" value="d"> d) A descoberta de armas químicas na fronteira com o México</div>
+        </div>
+    </div>
+
+    <div class="questao">
+        <div class="enunciado">13. O que foi a "Guerra de Trincheiras"?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q13" value="a"> a) Um tipo de combate naval em alto mar</div>
+            <div><input type="radio" name="q13" value="b"> b) Uma estratégia de batalha em campo aberto</div>
+            <div><input type="radio" name="q13" value="c"> c) Uma forma de combate estático em fortificações escavadas no solo</div>
+            <div><input type="radio" name="q13" value="d"> d) A utilização de aviões para bombardeios estratégicos</div>
+        </div>
+    </div>
+
+    <!-- Continue com mais 7 questões sobre 1ª Guerra Mundial (total de 10) -->
+
+    <!-- Seção 3: Período Entre-Guerras -->
+    <div class="secao">SEÇÃO 3 - PERÍODO ENTRE-GUERRAS (1919-1939)</div>
+
+    <div class="questao">
+        <div class="enunciado">21. Qual foi a principal consequência do Tratado de Versalhes para a Alemanha?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q21" value="a"> a) Anexação de territórios na Áustria</div>
+            <div><input type="radio" name="q21" value="b"> b) Fortalecimento de sua economia</div>
+            <div><input type="radio" name="q21" value="c"> c) Perda de territórios, pagamento de reparações e limitação militar</div>
+            <div><input type="radio" name="q21" value="d"> d) Criação de um império colonial na África</div>
+        </div>
+    </div>
+
+    <div class="questao">
+        <div class="enunciado">22. O que foi a "Grande Depressão" de 1929?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q22" value="a"> a) Uma crise econômica mundial que começou com a queda da bolsa de Nova York</div>
+            <div><input type="radio" name="q22" value="b"> b) Uma epidemia global que matou milhões de pessoas</div>
+            <div><input type="radio" name="q22" value="c"> c) Uma revolução comunista na Europa Oriental</div>
+            <div><input type="radio" name="q22" value="d"> d) Uma disputa territorial entre França e Alemanha</div>
+        </div>
+    </div>
+
+    <!-- Continue com mais 3 questões sobre Período Entre-Guerras (total de 5) -->
+
+    <!-- Seção 4: 2ª Guerra Mundial -->
+    <div class="secao">SEÇÃO 4 - SEGUNDA GUERRA MUNDIAL (1939-1945)</div>
+
+    <div class="questao">
+        <div class="enunciado">26. Qual foi o evento imediato que desencadeou a Segunda Guerra Mundial?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q26" value="a"> a) A invasão da Polônia pela Alemanha em 1939</div>
+            <div><input type="radio" name="q26" value="b"> b) O bombardeio de Pearl Harbor em 1941</div>
+            <div><input type="radio" name="q26" value="c"> c) A ocupação da Tchecoslováquia pela Alemanha</div>
+            <div><input type="radio" name="q26" value="d"> d) A assinatura do Pacto Germano-Soviético</div>
+        </div>
+    </div>
+
+    <div class="questao">
+        <div class="enunciado">27. O que foi o "Holocausto"?</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q27" value="a"> a) O período de bombardeios intensos sobre Londres</div>
+            <div><input type="radio" name="q27" value="b"> b) A política nazista de extermínio em massa de judeus e outros grupos</div>
+            <div><input type="radio" name="q27" value="c"> c) A resistência francesa contra a ocupação alemã</div>
+            <div><input type="radio" name="q27" value="d"> d) A estratégia militar japonesa no Pacífico</div>
+        </div>
+    </div>
+
+    <!-- Continue com mais 3 questões sobre 2ª Guerra Mundial (total de 5) -->
+
+    <!-- Seção 5: Questões Verdadeiro/Falso -->
+    <div class="secao">SEÇÃO 5 - VERDADEIRO OU FALSO</div>
+
+    <div class="questao v-f">
+        <div class="enunciado">31. A Revolução Russa de 1917 teve como uma de suas consequências a saída da Rússia da Primeira Guerra Mundial.</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q31" value="V"> V</div>
+            <div><input type="radio" name="q31" value="F"> F</div>
+        </div>
+    </div>
+
+    <div class="questao v-f">
+        <div class="enunciado">32. O Tratado de Versalhes foi considerado justo pela Alemanha e contribuiu para a estabilidade europeia no período entre-guerras.</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q32" value="V"> V</div>
+            <div><input type="radio" name="q32" value="F"> F</div>
+        </div>
+    </div>
+
+    <div class="questao v-f">
+        <div class="enunciado">33. Os Estados Unidos só entraram na Segunda Guerra Mundial após o ataque japonês a Pearl Harbor em 1941.</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q33" value="V"> V</div>
+            <div><input type="radio" name="q33" value="F"> F</div>
+        </div>
+    </div>
+
+    <div class="questao v-f">
+        <div class="enunciado">34. A Liga das Nações, criada após a Primeira Guerra Mundial, foi bem-sucedida em prevenir o surgimento de novos conflitos internacionais.</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q34" value="V"> V</div>
+            <div><input type="radio" name="q34" value="F"> F</div>
+        </div>
+    </div>
+
+    <div class="questao v-f">
+        <div class="enunciado">35. O Plano Marshall foi um programa de ajuda econômica dos EUA à Europa Ocidental após a Segunda Guerra Mundial.</div>
+        <div class="alternativas">
+            <div><input type="radio" name="q35" value="V"> V</div>
+            <div><input type="radio" name="q35" value="F"> F</div>
+        </div>
+    </div>
+
+    <button id="submit-btn">Enviar</button>
+
+    <div id="resultados">
+        <h2>RESULTADOS</h2>
+        <div id="feedback"></div>
+    </div>
+
+    <script>
+        const correctAnswers = {
+            q1: "b", q2: "b", q3: "a",
+            q11: "b", q12: "a", q13: "c",
+            q21: "c", q22: "a",
+            q26: "a", q27: "b",
+            q31: "V", q32: "F", q33: "V", q34: "F", q35: "V"
+        };
+
+        document.getElementById('submit-btn').addEventListener('click', function() {
+            let score = 0;
+            let totalQuestions = Object.keys(correctAnswers).length;
+            let feedback = '';
+
+            for (let question in correctAnswers) {
+                const userAnswer = document.querySelector(`input[name="${question}"]:checked`);
+                if (userAnswer) {
+                    if (userAnswer.value === correctAnswers[question]) {
+                        score++;
+                        feedback += `<p>${question}: Correto!</p>`;
+                    } else {
+                        feedback += `<p>${question}: Errado! A resposta correta é ${correctAnswers[question]}.</p>`;
+                    }
+                } else {
+                    feedback += `<p>${question}: Não respondido!</p>`;
+                }
+            }
+
+            feedback += `<p><strong>Acertos: ${score} de ${totalQuestions}</strong></p>`;
+            document.getElementById('feedback').innerHTML = feedback;
+            document.getElementById('resultados').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
